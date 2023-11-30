@@ -2,11 +2,12 @@
 import pygame,random,time,sys
 pygame.init()
 
-# load hình ảnh
+# load hình ảnh,aaaaaaaaaas,bbbbbbbbb
 m = 20 # kích thước chiều cao và chiều rộng
 Imgbody = pygame.transform.scale(pygame.image.load('body.jpg'),(m,m))
 Imghead = pygame.transform.scale(pygame.image.load('head.jpg'),(m,m))
 Imgfood = pygame.transform.scale(pygame.image.load('covid.png'),(m,m))
+ them dong nay
 
 pygame.mixer.init()
 pygame.mixer.music.load("nhac.mp3")
