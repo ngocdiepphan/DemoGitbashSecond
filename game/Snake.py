@@ -2,7 +2,7 @@
 import pygame,random,time,sys
 pygame.init()
 
-# load hình ảnh,aaaaaaaaaas,bbbbbbbbb
+# load hình ảnh,aaaaaaaaaas,bbbbbbbbb,cccccc
 m = 20 # kích thước chiều cao và chiều rộng
 Imgbody = pygame.transform.scale(pygame.image.load('body.jpg'),(m,m))
 Imghead = pygame.transform.scale(pygame.image.load('head.jpg'),(m,m))
