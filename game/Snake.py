@@ -12,6 +12,7 @@ Imgfood = pygame.transform.scale(pygame.image.load('covid.png'),(m,m))
 pygame.mixer.init()
 pygame.mixer.music.load("nhac.mp3")
 pygame.mixer.music.play()
+thay đôi code trong nhánh
 
 # tạo cửa sổ
 gameSurface = pygame.display.set_mode((735,475))
